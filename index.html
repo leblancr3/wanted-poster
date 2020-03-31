@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Assignment</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+
+        body {
+            background-color: black;
+            font-family:'Special Elite', Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.5em;
+        }
+
+        .container {
+            margin: 30px auto;
+            padding: 30px;
+            max-width: 70%;
+
+        }
+
+        .poster-wrap {
+            position: relative;
+            padding: 15px 25px;
+            height: 800px;
+
+            text-align:center;
+            border-radius: 10px;
+
+            background: url(./images/oldpaper2.png) center top/contain;
+        }
+
+        #header {
+            position: absolute;
+            top: 10px;
+            left: 300px;
+
+            margin: 20px;
+            padding:20px;
+
+            text-align:center;
+            font-size: 50px;
+        }
+
+        #reward {
+            position: absolute;
+            top:400px;
+            left: 300px;
+
+            font-size:40px;
+        }
+
+        #hamster {
+            display:block;
+            position: absolute;
+            top: 120px;
+            left:250px;
+
+            width: 50%;
+        }
+
+        #list {
+            position: absolute;
+            bottom: 150px;
+            left: 150px;
+        }
+        
+        ul {
+            list-style-type:none;
+        }
+
+        a {
+            text-decoration:none;
+            text-align: center;
+            display: block;
+            width: 30%;
+            background: antiquewhite;
+            padding: 10px;
+            color: black;
+            margin-top: 5px;
+            font-weight: bold;
+            border-radius: 5px;
+            border: 1px solid black;
+            cursor: pointer;
+
+            position: absolute;
+            bottom: 30px;
+            left: 350px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="poster-wrap">
+            <div id="header">
+                <h1>WANTED</h1>
+            </div>
+
+            <img id="hamster" src="images/Hamster.png" title="fluffball">
+
+            <div id="reward">
+                <p>Reward: $20 billion</p>
+            </div>
+    
+            <div id="list">
+                <ul>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, reprehenderit.</p></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, reprehenderit.</p></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, reprehenderit.</p></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, reprehenderit.</p></li>
+                </ul>
+            </div>
+
+            <a href="#">Claim Reward</a>
+        </div>
+    </div>
+</body>
+</html>
